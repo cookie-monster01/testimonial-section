@@ -150,12 +150,12 @@ h1 {
 }
 
 .card:first-of-type .card__img {
-    width: 1.8em;
+    width: 1.875em;
     border: 2px solid #A775F1;
 }
 
 .card:nth-of-type(4) .card__img {
-    width: 1.8em;
+    width: 1.875em;
     border: 2px solid var(--moderate-violet);
 }
 
