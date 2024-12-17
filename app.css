@@ -102,7 +102,7 @@ h1 {
 .bg__accent--white {
     background: var(--white);
     color: var(--dark-grayish-blue);
-    filter: drop-shadow(1.75em .75em .5em hsla(217, 19%, 35%, .2));
+    filter: drop-shadow(5em .5em .75em hsla(217, 19%, 35%, .18));
 }
 
 .bg__accent--white-s {
@@ -111,6 +111,7 @@ h1 {
 
 .bg__accent--white-l {
     grid-area: white-large;
+    filter: drop-shadow(.75em .5em 1em hsla(217, 19%, 35%, .18));
 }
 
 .hero {
@@ -180,11 +181,11 @@ h1 {
 }
 
 .card__caption {
-    font-size: 1.25rem;
+    font-size: 1.23rem;
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: 0.8em;
-    /* text-wrap: stable; */
+    text-wrap: stable;
 }
 
 .card:first-of-type .card__caption {
@@ -238,7 +239,7 @@ h1 {
     }
 
     .card__img--position {
-        top: 10.34rem;
+        top: 10.42rem;
         left: 36vw;
     }
 
