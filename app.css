@@ -145,17 +145,17 @@ h1 {
 }
 
 .card__img {
-    width: 1.75em;
+    width: 1.75rem;
     border-radius: 50%;
 }
 
 .card:first-of-type .card__img {
-    width: 1.875em;
+    width: 1.875rem;
     border: 2px solid #A775F1;
 }
 
 .card:nth-of-type(4) .card__img {
-    width: 1.875em;
+    width: 1.875rem;
     border: 2px solid var(--moderate-violet);
 }
 
@@ -250,6 +250,22 @@ h1 {
 
     .card:first-of-type .card__text {
         width: 100%;
+    }
+
+    .bg__accent--white {
+        padding-bottom: 1.6em;
+    }
+
+    .bg__accent--white .card__caption {
+        margin-bottom: 1.2em;
+    }
+
+    .bg__accent--blackish-blue {
+        padding-bottom: 1.6em;
+    }
+
+    .bg__accent--blackish-blue .card__caption {
+        margin-bottom: 1.2em;
     }
 
 }
