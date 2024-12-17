@@ -206,7 +206,7 @@ h1 {
 }
 
 @media (max-width: 375px) {
-    
+
     .card__img--position {
         left: 56vw;
     }
@@ -218,7 +218,7 @@ h1 {
         max-width: 1110px;
         display: grid;
         place-content: center;
-        gap: 24px 30px;
+        gap: 1.5rem 1.875rem;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, fit-content);
         grid-template-areas:
