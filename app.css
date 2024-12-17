@@ -56,14 +56,14 @@ h6 {
     overflow-wrap: break-word;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     text-wrap: stable;
-}
+} */
 
 #root,
 #__next {
@@ -160,7 +160,7 @@ h1 {
 }
 
 .card__label {
-    margin-left: 1.38em;
+    margin-left: 1.35em;
     font-size: .8125rem;
     line-height: 1;
 }
