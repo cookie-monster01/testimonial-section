@@ -145,7 +145,7 @@ h1 {
 }
 
 .card__img {
-    max-width: 1.75em;
+    min-width: 1.75em;
     border-radius: 50%;
 }
 
