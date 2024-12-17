@@ -152,12 +152,15 @@ h1 {
 .card:first-of-type .card__img {
     width: 1.875rem;
     border: 2px solid #A775F1;
+    object-fit: cover;
 }
 
 .card:nth-of-type(4) .card__img {
     width: 1.875rem;
     border: 2px solid var(--moderate-violet);
+    object-fit: cover;
 }
+
 
 .card__label {
     margin-left: 1.3em;
