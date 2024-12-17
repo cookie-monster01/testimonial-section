@@ -102,6 +102,7 @@ h1 {
 .bg__accent--white {
     background: var(--white);
     color: var(--dark-grayish-blue);
+    filter: drop-shadow(1.75em .75em .5em hsla(217, 19%, 35%, .2));
 }
 
 .bg__accent--white-s {
@@ -129,7 +130,6 @@ h1 {
     padding: 1.625em 2em 2em;
     margin-bottom: 1.5em;
     border-radius: .5rem;
-    filter: drop-shadow(1em .5em .75em hsla(0, 0%, 81%, .45));
 }
 
 .card:first-of-type {
@@ -144,8 +144,7 @@ h1 {
 }
 
 .card__img {
-    width: 1.75em;
-    height: 1.75em;
+    max-width: 1.75em;
     border-radius: 50%;
 }
 
